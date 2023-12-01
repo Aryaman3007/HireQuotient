@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Hero-section{
+    background-attachment: scroll;
+    background-clip:border-box;
+    background-image: linear-gradient(rgb(253,242,236) 0%, rgb(255,255,255) 100%);
+    display: flex;
+    flex-direction: column;
+    height: 1317px;
+    padding-top: 100px;
+    width: 100%;
+    align-items:center;
+}
+
+.Hero-container{
+    display: flex;
+    flex-direction: column;
+    height: 393.5px;
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    width:1200px;
+}
+
+.Hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width:1200px;
+    height:238px;
+    padding-bottom: 30px;
+    width:1200px;
+    position: relative;
+    align-items:center;
+    justify-content:center;
+    padding-bottom: 10px;
+}
+
+.Hero-welcome{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position:relative;
+    height: 30px;
+    width: 240px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.Welcome-text{
+    color: rgb(130,71,255);
+    font-size:13px;
+    letter-spacing: 0.95px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.Hero-text-frame-1{
+    font-size: 85px;
+    display:flex;
+    font-family: 'Outfit', sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+}
+
+.Hero-text-msg-1{
+    line-height:100px;
+    letter-spacing: -2px;
+}
+
+.Hero-text-frame-2{
+    font-size: 22px;
+    display:flex;
+    font-family: 'Outfit', sans-serif;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    text-align:center;
+    color: rgb(118,117,117);
+    width:670px;
+    padding-top:20px;
+    padding-bottom:25px;
+}
+
+.Hero-text-msg-2{
+    line-height:30px;
+    letter-spacing: -0.5px;
+}
+
+.dual-button{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:450px;
+}
+
+.button-1{
+    background-color: rgb(130,71,255);
+    height: 56px;
+    border-radius: 18px;
+    width:210px;
+    padding-top:16px;
+    padding-bottom:16px;
+    padding-left:26px;
+    padding-right:26px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    cursor:pointer;
+    font-style: normal;
+    letter-spacing: normal;
+    transition: box-shadow 0.3s ease, border-radius 0.3s ease
+}
+
+.button-1:hover{
+    box-shadow: 0 0 15px rgb(130,71,255);
+    border-radius:18px;    
+}
+
+.button-2{
+    background-color: white;
+    height: 56px;
+    border-radius: 18px;
+    width:210px;
+    padding-top:16px;
+    padding-bottom:16px;
+    padding-left:26px;
+    padding-right:26px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color: white;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    cursor:pointer;
+    font-style: normal;
+    letter-spacing: normal;
+    position: relative;
+    color: black;
+    border: 1px solid #E0E0E0;
+    flex-direction: row;
+}
+
+.button-2:hover{
+    border: 1px solid black;
+}
+
+.button-2 > img{
+    height:24px;
+    width:24px;
+    margin-left:2px;
+}
+
+.Hero-img{
+    height: 823px;
+    padding-top:60px;
+    display:flex;
+    align-items:center;
+    column-gap:10px;
+    padding-top:10px;
+}
+
+.Hero-img > img{
+    height: 664px;
+    border-radius:27px;
+    object-fit: contain;
+    object-position: 50% 50%;
+    box-shadow: 0 25px 20px #d6d6d4
+}
+
+.scrolling-image {
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+

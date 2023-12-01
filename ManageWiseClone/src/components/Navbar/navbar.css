@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    left:0;
+    right:0;
+    height: 78px;
+    background-color: rgb(253,242,,236);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    padding-left:24px;
+    padding-right: 24px;
+    padding-top:16px;
+    position: relative;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.navbar-left{
+    flex:1;
+    position: relative;
+    display: block;
+    aspect-ratio: auto;
+}
+
+.navbar-right{
+    flex:0.6;
+    display: flex;
+    flex-direction: row;
+    column-gap: 56px;
+    list-style-type: none; 
+    width: 615px;
+    position: relative;
+    justify-content: space-around;
+    align-items:center;
+    align-content: center;
+}
+
+.navbar-left-img{
+    display: block; 
+    flex-basis: auto;
+    position: absolute;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar-logo{
+    display: block;
+    image-rendering: auto;
+    object-fit: cover;
+    image-rendering: auto;
+    overflow-clip-margin :content-box;
+    height:45px;
+    width: 180px;
+    -webkit-font-smoothing :antialiased;
+}
+
+.navbar-heading{
+    align-content: center;
+    align-items: center;
+    column-gap:16px;
+    display:flex;
+    flex-direction:row;
+    height: 46px;
+    justify-content: space-between;
+    position:relative;
+    width:435px;
+}
+
+.navbar-items{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    align-content: center;    
+}
+
+.navbar-text{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-text:hover{
+    color: rgb(0,0,238);
+}
+
+.navbar-button{
+    width:150px;
+    height:48px;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:18px;
+    font-weight:500;
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+    transition: border-color 0.5s ease
+}
+
+.navbar-button:hover{
+    border: 1px solid black;
+}
