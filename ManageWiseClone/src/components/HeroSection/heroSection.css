@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -48,6 +50,7 @@
     width: 240px;
     background-color: white;
     border-radius: 8px;
+    border:1px solid #E0E0E0;
 }
 
 .Welcome-text{
@@ -182,7 +185,7 @@
 }
 
 .scrolling-image {
-  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  transition: transform 0.2s ease; 
 }
 
 

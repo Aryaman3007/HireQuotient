@@ -19,10 +19,9 @@ const Body1 = () => {
     }, []);
 
     const calculateImageSize = () => {
-        // Calculate the image size based on the scroll position
-        const minSize = 1150; // Minimum image size
-        const maxSize = 1250; // Maximum image size
-        const scrollRange = 500; // Range of scroll for the effect
+        const minSize = 1100; 
+        const maxSize = 1300; 
+        const scrollRange = 500; 
         const imageSize = minSize + (maxSize - minSize) * (scrollPosition / scrollRange);
 
         return Math.min(maxSize, Math.max(minSize, imageSize));
@@ -34,7 +33,7 @@ const Body1 = () => {
 
     return (
         <>
-            <div className="Hero-section">
+            <header className="Hero-section">
                 <div className="Hero-container">
                     <div className="Hero-wrapper">
                         <div className="Hero-welcome">
@@ -64,7 +63,7 @@ const Body1 = () => {
                 <div className="Hero-img">
                     <img src={Hero1} alt="My SVG Image" style={{ width: calculateImageSize(), height: 'auto' }} />
                 </div>
-            </div>
+            </header>
         </>
     )
 }
