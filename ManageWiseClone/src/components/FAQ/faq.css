@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.FAQ{
+    align-content:center;
+    align-items: center;
+    box-sizing :border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-direction :row;
+    flex-grow :0;
+    flex-shrink :0;
+    flex-wrap: nowrap;
+    font-family :sans-serif;
+    font-size: 12px;
+    height: 745px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 120px;
+    padding-top: 150px;
+    position: relative;
+    width: 100%;   
+}
+
+.Faq-section{
+    align-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    column-gap: 10px;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    height: 475px;
+    justify-content: center;
+    max-width: 1200px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    row-gap: 10px;
+    width :1200px;
+}
+
+.Faq-left{
+    align-content :flex-start;
+    align-items :flex-start;
+    box-sizing: border-box;
+    column-gap: 20px;
+    display: flex;
+    flex-basis :auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-wrap :nowrap;
+    height: 272px;
+    justify-content: center;
+    max-width: 465px;
+    overflow-x :hidden;
+    overflow-y: hidden;
+    position: relative;
+    row-gap :20px;
+    width :465px;
+}
+
+.faq-msg{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position:relative;
+    height: 30px;
+    width: 77px;
+    background-color: white;
+    border-radius: 8px;
+    border:1px solid #E0E0E0;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:4px;
+    padding-top:4px;
+}
+
+.faq-span-text{
+    color: rgb(130,71,255);
+    font-size:13px;
+    letter-spacing: 0.95px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height:14.4px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.faq-text-frame-1{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 112px;
+    width: 400px;
+    max-width: 400px;
+    word-break: break-word;
+    z-index:1;
+    text-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.faq-text-msg-1{
+    font-size: 56px;
+    line-height:56px;
+    letter-spacing: -1px;
+    color: rgb(253, 242, 236);
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    text-wrap: wrap;
+}
+
+.faq-text-frame-2{
+    font-size: 20px;
+    display:flex;
+    font-family: 'Outfit', sans-serif;
+    flex-direction: column;
+    color: rgb(118,117,117);
+    overflow-wrap: break-word;
+    max-width: 325px;
+    z-index:3;
+    text-wrap: wrap;
+    height: 90px;
+}
+
+.faq-text-msg-2{
+    line-height:30px;
+    letter-spacing: -0.5px;
+    text-align:left;
+    font-size: 20px;
+    width: 325px;
+    text-wrap: wrap;
+    font-family: "Inter", sans-serif;
+}
+
+.Faq-right{
+    align-content: center;
+    align-items :center;
+    box-sizing: border-box;
+    column-gap: 10px;
+    display :flex;
+    flex-basis: auto;
+    flex-direction :column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-wrap :nowrap;
+    font-size :12px;
+    height :475.387px;
+    justify-content: center;
+    max-width: 100%;
+    position :relative;
+    row-gap: 10px;
+    width :720px;
+}
+
+.Faq-questions{
+    align-content: flex-start;
+    align-items: flex-start;
+    border-radius: 20px;;
+    box-sizing :border-box;
+    column-gap :12px;
+    display :flex;
+    flex-direction :column;
+    flex-wrap :nowrap;
+    height: 73px;
+    justify-content :flex-start;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y :hidden;
+    position: relative;
+    row-gap: 12px;
+    width: 720px;
+    background-color: rgb(247, 248, 253);
+}
+
+.Faq-questions:nth-child(2),
+.Faq-questions:nth-child(3){
+    height: 105px;
+    justify-content:center;
+}
+
+.Faq-questions:hover{
+    cursor: pointer;    
+}
+
+.faq-question-content{
+    height: 73px;
+    border-radius: 20px;
+    width: 720px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.faq-text{
+    align-content :flex-start;
+    align-items: flex-start;
+    background-color: rgb(247, 248, 253);
+    border-radius:20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction :column;
+    flex-wrap :nowrap;
+    height: 73px;
+    justify-content: center;
+    padding-left :30px;
+    padding-right :15px;
+    position: relative;
+    width: 720px;
+}
+
+.faq-title{
+    color: rgb(28,28,28);
+    text-decoration-style:solid;
+    font-size: 25px;
+    font-family:"Outfit", sans-serif;
+    line-height:32.5px;
+    letter-spacing: -0.5ps;
+}

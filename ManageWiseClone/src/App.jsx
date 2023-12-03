@@ -1,8 +1,11 @@
 import './App.css'
+import Faq from './components/FAQ/Faq'
 import Feature1 from './components/Features/Feature1/Feature1'
-import Feature2 from './components/Features/Feature2.jsx/Feature2'
+import Feature2 from './components/Features/Feature2/Feature2'
+import Feature3 from './components/Features/Feature3/Feature3'
 import HeroSection from './components/HeroSection/HeroSection'
 import Navbar from './components/Navbar/Navbar'
+import Pricing from './components/Pricing/Pricing'
 
 function App() {
 
@@ -12,6 +15,9 @@ function App() {
     <HeroSection/> 
     <Feature1/>    
     <Feature2/>
+    <Feature3/>
+    <Faq/>
+    <Pricing/>
     </>
   )
 }
