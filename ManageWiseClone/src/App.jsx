@@ -1,4 +1,5 @@
 import './App.css'
+import {BrowserRouter as Router} from 'react-router-dom'
 import Faq from './components/FAQ/Faq'
 import Feature1 from './components/Features/Feature1/Feature1'
 import Feature2 from './components/Features/Feature2/Feature2'
@@ -11,13 +12,15 @@ function App() {
 
   return (
     <>
-    <Navbar/>
-    <HeroSection/> 
-    <Feature1/>    
-    <Feature2/>
-    <Feature3/>
-    <Faq/>
-    <Pricing/>
+      <Router>
+        <Navbar/>       
+        <HeroSection />
+        <Feature1 />
+        <Feature2 />
+        <Feature3 />
+        <Faq />
+        <Pricing />
+      </Router>
     </>
   )
 }
